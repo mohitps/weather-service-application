@@ -32,7 +32,26 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+/* CSS for splitting the home page into left and right halves */
+.split-page {
+  display: flex;
+  height: 100vh;
+}
+
+.left-container {
+  flex: 1;
+  padding: 20px;
+}
+.right-container {
+  flex: 1;
+  padding: 20px;
+  background-color: cyan;
+}
+
+
