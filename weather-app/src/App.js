@@ -2,10 +2,19 @@
 import './App.css';
 import React, { useState, useEffect, useMemo, useCallback, memo } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 
 // Image imports
 import logo from './images/logo-weather-200.png'
 import stormCloud from './images/storm-cloud-picture.jpg'
+
+// Component imports
+import MagicLink from './components/MagicLink';
 
 function App() {
 
@@ -22,13 +31,18 @@ function App() {
         <img src={logo} alt="website-logo" style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', marginTop: '20%', width: '30%' }} />
         <h1 className='weather-app-name'>ClimaFit</h1>
 
+        {/* Login Button */}
+        <button type="button" className="btn btn-primary btn-lg">Login</button>
+
         {/* Search Bar */}
-        <div class="md-form mt-0" style={{ width: "50%", margin: 'auto'}}>
+        {/* <div class="md-form mt-0" style={{ width: "50%", margin: 'auto'}}>
           <input class="form-control" type="text" placeholder="Search ZIP Code" aria-label="Search" />
-        </div>
+        </div> */}
 
       </div>
     </div>
+
+    // <MagicLink></MagicLink>
 
   );
 }
