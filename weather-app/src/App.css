@@ -51,7 +51,12 @@
 .right-container {
   flex: 1;
   padding: 20px;
-  background-color: cyan;
+  /* bg color for testing */
+  /* background-color: cyan; */
 }
 
+.weather-app-name {
+  color: whitesmoke;
+  text-align: 250px;
+}
 
