@@ -48,6 +48,7 @@
   flex: 1;
   padding: 20px;
 }
+
 .right-container {
   flex: 1;
   padding: 20px;
@@ -60,19 +61,21 @@
   text-align: 250px;
 }
 
-  body {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 
-  .table-container {
-    border: 2px solid black;
-    padding: 20px;
-  }
+/* CSS used for the Workouts page, can effect the home page */
+/* body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .table {
-    width: 100%;
-  }
+.table-container {
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.table {
+  width: 100%;
+} */
