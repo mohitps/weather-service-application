@@ -15,6 +15,7 @@ import stormCloud from './images/storm-cloud-picture.jpg'
 
 // Component imports
 import MagicLink from './components/MagicLink';
+import Profile from './components/Profile';
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
     </div>
 
     // <MagicLink></MagicLink>
+    // <Profile></Profile>
 
   );
 }
