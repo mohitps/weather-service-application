@@ -1,15 +1,15 @@
 function Workouts() {
     return (
-        <div> Rainy Conditions, stay inside
-            <div class="table-container">
-                <table class="table">
+        <div className="workouts">
+            <div>Rainy Conditions, stay inside</div>
+            <div className="workout-container">
+                <table className="table">
                     <thead>
                         <tr>
                             <th scope="col">#</th>
-                            <th scope="col">Excercise</th>
+                            <th scope="col">Exercise</th>
                             <th scope="col">Reps</th>
                             <th scope="col">Sets</th>
-
                         </tr>
                     </thead>
                     <tbody>
@@ -41,7 +41,6 @@ function Workouts() {
                 </table>
             </div>
         </div>
-
     );
 }
 

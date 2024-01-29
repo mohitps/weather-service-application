@@ -7,3 +7,4 @@ This application using the following dependencies:
 - npm install bootstrap
 - react-router-dom
 - npm i mdb-react-ui-kit
+- npm install openmeteo
