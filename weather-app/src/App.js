@@ -53,7 +53,7 @@ function App() {
     // <Profile></Profile>
     // <WorkoutList></WorkoutList>
     <WeatherPage></WeatherPage>
-
+    // <FetchAPI></FetchAPI>
 
   );
 }
