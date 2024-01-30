@@ -20,7 +20,7 @@ const Menu = () => {
             </li>
           </ul>
 
-          
+
         </Nav>
       </header>
     </Container>

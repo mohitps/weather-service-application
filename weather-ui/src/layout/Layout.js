@@ -1,4 +1,3 @@
-// components
 import Menu from "../components/Menu.js";
 import Footer from "../components/Footer.js";
 

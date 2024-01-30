@@ -7,7 +7,7 @@ const Home = () => {
 
   return (
     <div>
-      <Meta title={pageTitle}/>
+      <Meta title={pageTitle} />
       <Header head={pageTitle} description={pageDescription} />
     </div>
   )

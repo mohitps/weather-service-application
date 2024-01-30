@@ -3,7 +3,7 @@ const Footer = () => {
 	return (
 		<>
 			<footer className="text-center text-capitalize">
-                <br/><br/><br/><br/>
+				<br /><br /><br /><br />
 				Weather App &copy; {year}
 			</footer>
 		</>
