@@ -5,7 +5,8 @@ The app makes use of an open weather API to get weather data using the following
 https://www.weatherapi.com/my/
 
 # Initial Step
-1. Clone the repository with the following link "https://github.com/mohitps/weather-service-application.git"
+1. Clone the repository with the following link:\
+https://github.com/mohitps/weather-service-application.git
 
 # Structure
 My application is split into two folders, weather-ui (frontend) and weather-api (backend).
@@ -15,17 +16,17 @@ backend already, and the steps to start the backend are in the next section.
 # Start the Backend
 The backend has a Dockerfile which can be ran with the following commands:
 
-Stop and Build the API Docker Container
-Note: if the container is not yet created then skip to the "Build the Docker Image" command
+1. Stop and Build the API Docker Container\
+Note: if the container is not yet created then skip to the "Build the Docker Image" command\
 ```docker stop weatherapi && docker rm weatherapi```
 
-Build the Docker Image - Code is baked into it
+2. Build the Docker Image - Code is baked into it\
 ```docker build --tag weatherapi-docker .```
 
-Run the Docker container from the Weather API Docker image, exposing port 5000 with name as weatherapi
+3. Run the Docker container from the Weather API Docker image, exposing port 5000 with name as weatherapi\
 ```docker run -d -p 5000:5000 --name weatherapi weatherapi-docker```
 
-Command to View logs for the Container
+4. Command to View logs for the Container\
 ```docker logs -f weatherapi```
 
 
