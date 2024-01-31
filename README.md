@@ -40,7 +40,8 @@ Note: if the container is not yet created then skip to the "Build the Docker Ima
 
 # How to run the UI (Frontend)
 1. CD into the weather-ui directory
-2. Type ```npm start``` and explore the application (more info in the Functionality section)
+2. Type ```npm start```, by default it runs on port 3000.\
+   For example, if you are running the app on PC, the URL would be http://localhost:3000/
 
 # How to use the application
 1. In order to use the UI, first click on the top right link called "Weather"
