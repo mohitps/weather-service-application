@@ -25,8 +25,10 @@ https://www.weatherapi.com/my/
 The backend has a Dockerfile which can be ran with the following commands:
 
 1. Stop and Build the API Docker Container\
-Note: if the container is not yet created then skip to the "Build the Docker Image" command\
+Note: if the container is not yet created then skip to the step 2 command\
 ```docker stop weatherapi && docker rm weatherapi```
+Or for linux/powershell users:\
+```docker stop weatherapi; docker rm weatherapi```
 
 2. Build the Docker Image - Code is baked into it\
 ```docker build --tag weatherapi-docker .```
