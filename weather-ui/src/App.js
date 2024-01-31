@@ -8,6 +8,7 @@ import Layout from "./layout/Layout";
 import Home from "./pages/Home";
 import Weather from "./pages/Weather";
 import NotFound from "./pages/NotFound";
+import Profile from "./pages/Profile";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Route path="/" element={<Home />} exact />
           <Route path="/weather" element={<Weather />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="profile" element={<Profile/>}/>
         </Routes>
       </Container>
     </Layout>

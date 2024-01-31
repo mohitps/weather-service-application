@@ -19,7 +19,7 @@ def greet():
 
 @app.route('/weather')
 def weather2():
-    time.sleep(1)
+    time.sleep(2)
     zipcode = request.args.get('zipcode')
     request_url = "http://api.weatherapi.com/v1/current.json?q="+zipcode+"&key=0567af7463b3413693a223913243001"
     response = requests.get(request_url)

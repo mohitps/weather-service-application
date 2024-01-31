@@ -3,7 +3,7 @@ import Meta from '../components/Meta'
 
 const Home = () => {
   const pageTitle = 'Home'
-  const pageDescription = 'Welcome to weather application'
+  const pageDescription = 'Welcome to the weather application'
 
   return (
     <div>

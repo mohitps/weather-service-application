@@ -18,9 +18,14 @@ const Menu = () => {
                 Weather
               </Link>
             </li>
+            <li>
+            <Link to="/profile" className="nav-link px-2 link-secondary">
+                Profile
+              </Link>
+            </li>
           </ul>
 
-
+          
         </Nav>
       </header>
     </Container>
