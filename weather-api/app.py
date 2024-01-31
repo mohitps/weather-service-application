@@ -1,13 +1,11 @@
 from flask import Flask
 from flask import Flask, request
-import openmeteo_requests
 import requests
 import requests_cache
 import pandas as pd
 from flask_cors import CORS, cross_origin
 from retry_requests import retry
 import time
-
 
 app = Flask(__name__)
 cors = CORS(app)

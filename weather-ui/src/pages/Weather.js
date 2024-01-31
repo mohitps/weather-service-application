@@ -48,11 +48,11 @@ const Weather = () => {
             <div className="d-flex flex-column align-items-center">
                 <Form.Group className="mb-3">
                     <Form.Label>
-                        <h5>Find Weather informaiton by Zipcode</h5>
+                        <h5>Find Weather information by ZIP code</h5>
                     </Form.Label>
                     <Form.Control
                         type="text"
-                        placeholder="Enter Zipcode"
+                        placeholder="Enter ZIP Code"
                         onChange={(e) => handleInputZipcode(e)}
                     />
                     <br />
@@ -217,7 +217,7 @@ const Weather = () => {
                                         </Card.Body>
                                         <Card.Footer>
                                             <small className="text-muted">
-                                                <h4>Feels Lile</h4>
+                                                <h4>Feels Like</h4>
                                             </small>
                                         </Card.Footer>
                                     </Card>
