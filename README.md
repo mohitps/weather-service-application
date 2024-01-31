@@ -48,7 +48,8 @@ Note: if the container is not yet created then skip to the "Build the Docker Ima
 3. Click fetch, and the data will be displayed on the screen
 
 # Application Screenshots
+![Home Page](./screenshots/home.png)
 
-1. ![Home Page](./screenshots/home.png)
-2. ![Weather Page](./screenshots/weather.png)
-3. ![Weather Data Page](./screenshots/weather-data.png)
+![Weather Page](./screenshots/weather.png)
+
+![Weather Data Page](./screenshots/weather-data.png)
