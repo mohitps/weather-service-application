@@ -15,7 +15,7 @@ backend already, and the steps to start the backend are in the next section.
 
 # Prerequisite
 This application requires an API key in order to function. The API key can be found at \
-https://www.weatherapi.com/my/ \
+https://www.weatherapi.com/my/
 1. Create a free account and confirm using your email
 2. At the top of the screen should be your API key, click "copy"
 3. Go to the "weather-api" and open the "app.py" file
