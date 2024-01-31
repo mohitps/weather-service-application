@@ -1,4 +1,4 @@
-# Welcome to my Weather Service Appplciation!
+# Welcome to my Weather Service Application!
 The purpose of this web application is to show weather data for a given zip code.
 
 The app makes use of an open weather API to get weather data using the following link:
@@ -31,7 +31,7 @@ Command to View logs for the Container
 
 # How to run the UI (Frontend)
 1. CD into the weather-ui directory
-2. Type "npm start" and explore the application (more info in the Functionality section)
+2. Type ```npm start``` and explore the application (more info in the Functionality section)
 
 # How to use the application
 1. In order to use the UI, first click on the top right link called "Weather"
